@@ -1,0 +1,126 @@
+body{
+    background-image: url(https://c8.alamy.com/comp/2H0W9RY/tic-tac-toe-seamless-background-on-dark-blue-vector-illustration-design-for-fabric-or-packaging-2H0W9RY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin-left: 960px;
+    position: absolute;
+}
+.gameDiv
+{
+    display: inline-block;
+    margin-left: 150px;
+    visibility: hidden;
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+
+#gameOver
+{
+    display: none;
+    text-align: center;
+    color: red;
+    border: 8px solid orangered;
+    background-color: aliceblue;
+    opacity: 0.6;
+    padding: 30px;
+    font-size: 35px;
+    width: 390px;
+    margin-top:-80px;
+    margin-left: 300px;
+    position: absolute;
+    justify-content: center;
+
+}
+
+h2{
+    color: greenyellow;
+    font-size: 30px;
+    margin-top: 0px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(148, 41, 2);
+    font-size: 70px; 
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(7, 253, 7);
+    font-size: 28px;
+    visibility: visible;
+}
+#user1.hover{
+    color: goldenrod;
+}
+
+.container-fluid{
+    position: relative;
+    top: -245px;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.div{
+    color: whitesmoke;
+    border: 8px solid goldenrod;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+    position: absolute;
+    top: 170px;
+}
+
+.td {
+    border : 2px solid white;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+}
+
+.th{
+    border : 2px solid white;
+    border-radius: 10px;
+    height: 40px;
+    color: rgb(249, 249, 6);
+}
+
+.score{
+    position: absolute;
+
+}
+
+
+.content{
+    margin-top: 00px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
